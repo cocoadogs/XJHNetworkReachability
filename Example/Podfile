@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XJHNetworkReachability_Example' do
+  pod 'XJHNetworkReachability', :path => '../'
+
+  target 'XJHNetworkReachability_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
