@@ -1,0 +1,35 @@
+PODS:
+  - FBRetainCycleDetector (0.1.4)
+  - Masonry (1.1.0)
+  - MLeaksFinder (1.0.0):
+    - FBRetainCycleDetector
+  - ReactiveObjC (3.1.0)
+  - XJHNetworkReachability (0.1.0)
+
+DEPENDENCIES:
+  - Masonry (~> 1.1.0)
+  - MLeaksFinder (~> 1.0.0)
+  - ReactiveObjC (~> 3.1.0)
+  - XJHNetworkReachability (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBRetainCycleDetector
+    - Masonry
+    - MLeaksFinder
+    - ReactiveObjC
+
+EXTERNAL SOURCES:
+  XJHNetworkReachability:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBRetainCycleDetector: 46f8179bbb1c587deee3ea838a1a3ee02acf5015
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MLeaksFinder: 8c435bd2f6d070af18cff082b503b21adc130fc0
+  ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
+  XJHNetworkReachability: 344e48de215be4a76a184387f75cec746efb552d
+
+PODFILE CHECKSUM: ec9e5570387290bd08d4b984d84449e1b0fdf70e
+
+COCOAPODS: 1.5.3

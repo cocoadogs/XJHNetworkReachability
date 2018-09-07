@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15025F61213F77E400B85209 /* XJHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15025F60213F77E400B85209 /* XJHViewController.m */; };
+		15025F6C2140F99800B85209 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15025F6B2140F99800B85209 /* SecondViewController.m */; };
+		154C959B21422D0500DB738F /* UIView+ViewTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 154C959921422D0500DB738F /* UIView+ViewTracker.m */; };
 		277D4A4C42513004706BF276 /* Pods_XJHNetworkReachability_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 737C285D06CB35B2558C21EE /* Pods_XJHNetworkReachability_Example.framework */; };
 		43B7F521515C6C0A3290AAF4 /* Pods_XJHNetworkReachability_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69BA5AD643C8DD4EF9F33FC9 /* Pods_XJHNetworkReachability_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -15,7 +18,6 @@
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* XJHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* XJHAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* XJHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* XJHViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -23,7 +25,6 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,12 +38,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08EBEFC7A57EA1F56DEBCAEF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		08EBEFC7A57EA1F56DEBCAEF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		15025F5F213F77E400B85209 /* XJHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XJHViewController.h; sourceTree = "<group>"; };
+		15025F60213F77E400B85209 /* XJHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XJHViewController.m; sourceTree = "<group>"; };
+		15025F6A2140F99800B85209 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		15025F6B2140F99800B85209 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		154C959921422D0500DB738F /* UIView+ViewTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewTracker.m"; sourceTree = "<group>"; };
+		154C959A21422D0500DB738F /* UIView+ViewTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewTracker.h"; sourceTree = "<group>"; };
 		2B40EEBC2A337325E73123C7 /* Pods-XJHNetworkReachability_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XJHNetworkReachability_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XJHNetworkReachability_Example/Pods-XJHNetworkReachability_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		344D33913B38674E05A09DAF /* Pods-XJHNetworkReachability_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XJHNetworkReachability_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-XJHNetworkReachability_Example/Pods-XJHNetworkReachability_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3981B101D9CB6E6C38FA3955 /* Pods-XJHNetworkReachability_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XJHNetworkReachability_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XJHNetworkReachability_Tests/Pods-XJHNetworkReachability_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4C42C2C507E70CC4C0C55BC8 /* XJHNetworkReachability.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XJHNetworkReachability.podspec; path = ../XJHNetworkReachability.podspec; sourceTree = "<group>"; };
-		4E9562306DD7A3B32250020F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4C42C2C507E70CC4C0C55BC8 /* XJHNetworkReachability.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XJHNetworkReachability.podspec; path = ../XJHNetworkReachability.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4E9562306DD7A3B32250020F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4FA3644F96BB13B62789A4E1 /* Pods-XJHNetworkReachability_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XJHNetworkReachability_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XJHNetworkReachability_Tests/Pods-XJHNetworkReachability_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* XJHNetworkReachability_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XJHNetworkReachability_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -54,8 +61,6 @@
 		6003F59B195388D20070C39A /* XJHNetworkReachability-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XJHNetworkReachability-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* XJHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XJHAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* XJHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XJHAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* XJHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XJHViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* XJHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XJHViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* XJHNetworkReachability_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XJHNetworkReachability_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -66,7 +71,6 @@
 		69BA5AD643C8DD4EF9F33FC9 /* Pods_XJHNetworkReachability_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XJHNetworkReachability_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		737C285D06CB35B2558C21EE /* Pods_XJHNetworkReachability_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XJHNetworkReachability_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,11 +136,14 @@
 		6003F593195388D20070C39A /* Example for XJHNetworkReachability */ = {
 			isa = PBXGroup;
 			children = (
+				154C959A21422D0500DB738F /* UIView+ViewTracker.h */,
+				154C959921422D0500DB738F /* UIView+ViewTracker.m */,
 				6003F59C195388D20070C39A /* XJHAppDelegate.h */,
 				6003F59D195388D20070C39A /* XJHAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* XJHViewController.h */,
-				6003F5A6195388D20070C39A /* XJHViewController.m */,
+				15025F5F213F77E400B85209 /* XJHViewController.h */,
+				15025F60213F77E400B85209 /* XJHViewController.m */,
+				15025F6A2140F99800B85209 /* SecondViewController.h */,
+				15025F6B2140F99800B85209 /* SecondViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -247,6 +254,10 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = cocoadogs;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = JU3KWWCH68;
+						ProvisioningStyle = Automatic;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -276,7 +287,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -301,10 +311,18 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-XJHNetworkReachability_Example/Pods-XJHNetworkReachability_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FBRetainCycleDetector/FBRetainCycleDetector.framework",
+				"${BUILT_PRODUCTS_DIR}/MLeaksFinder/MLeaksFinder.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
 				"${BUILT_PRODUCTS_DIR}/XJHNetworkReachability/XJHNetworkReachability.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBRetainCycleDetector.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MLeaksFinder.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XJHNetworkReachability.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,8 +373,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15025F6C2140F99800B85209 /* SecondViewController.m in Sources */,
+				154C959B21422D0500DB738F /* UIView+ViewTracker.m in Sources */,
 				6003F59E195388D20070C39A /* XJHAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* XJHViewController.m in Sources */,
+				15025F61213F77E400B85209 /* XJHViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -485,12 +505,17 @@
 			baseConfigurationReference = 2B40EEBC2A337325E73123C7 /* Pods-XJHNetworkReachability_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JU3KWWCH68;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XJHNetworkReachability/XJHNetworkReachability-Prefix.pch";
 				INFOPLIST_FILE = "XJHNetworkReachability/XJHNetworkReachability-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -500,12 +525,17 @@
 			baseConfigurationReference = 344D33913B38674E05A09DAF /* Pods-XJHNetworkReachability_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JU3KWWCH68;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XJHNetworkReachability/XJHNetworkReachability-Prefix.pch";
 				INFOPLIST_FILE = "XJHNetworkReachability/XJHNetworkReachability-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

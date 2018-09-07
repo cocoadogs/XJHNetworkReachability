@@ -1,0 +1,6 @@
+framework module XJHNetworkReachability {
+  umbrella header "XJHNetworkReachability-umbrella.h"
+
+  export *
+  module * { export * }
+}

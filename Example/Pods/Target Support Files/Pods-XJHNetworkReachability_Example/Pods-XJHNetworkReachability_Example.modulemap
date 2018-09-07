@@ -1,0 +1,6 @@
+framework module Pods_XJHNetworkReachability_Example {
+  umbrella header "Pods-XJHNetworkReachability_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
