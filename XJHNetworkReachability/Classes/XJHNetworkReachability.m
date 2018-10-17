@@ -76,6 +76,9 @@ API_AVAILABLE(ios(9.0))
 	if (self = [super init]) {
 		
 	}
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(applicationWillResignActive) name:UIApplicationWillResignActiveNotification object:nil];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(applicationDidBecomeActive) name:UIApplicationDidBecomeActiveNotification object:nil];
 	return self;
 }
 
@@ -131,10 +134,6 @@ API_AVAILABLE(ios(9.0))
 #pragma mark - Config Methods
 
 - (void)setupNetworkReachability {
-	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(applicationWillResignActive) name:UIApplicationWillResignActiveNotification object:nil];
-	
-	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(applicationDidBecomeActive) name:UIApplicationDidBecomeActiveNotification object:nil];
-	
 	reachabilityRef = ({
 		struct sockaddr_in zeroAddress;
 		bzero(&zeroAddress, sizeof(zeroAddress));

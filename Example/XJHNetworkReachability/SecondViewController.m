@@ -49,7 +49,6 @@
 #pragma mark - Private Method
 
 - (void)checkReachability {
-	[self printStatusBar];
 	[XJHNetworkReachability popAlertEnable:YES];
 	[XJHNetworkReachability startWithCompletion:^(XJHNetworkConnectType connect, XJHNetworkCarrierType carrier) {
 		NSLog(@"网络正常，连接类型 = %@，运营商 = %@", @(connect), @(carrier));
@@ -59,6 +58,12 @@
 		builder.title = @"我去，网络被关掉了";
 	}];
 	[XJHNetworkReachability monitor:^(XJHNetworkReachabilityStatus status, XJHNetworkConnectType connect, XJHNetworkCarrierType carrier) {
+        if ([XJHNetworkReachability currentStatus] == status) {
+            NSLog(@"网络监听状态一致！！！");
+        } else {
+            NSLog(@"网络监听状态不一致");
+        }
+        
 		NSLog(@"网络可达性发生改变\n网络状态 = %@，连接类型 = %@，运营商 = %@", @(status), @(connect), @(carrier));
 
 	}];

@@ -255,7 +255,7 @@
 				ORGANIZATIONNAME = cocoadogs;
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
-						DevelopmentTeam = JU3KWWCH68;
+						DevelopmentTeam = 8VSM2Q9RF5;
 						ProvisioningStyle = Automatic;
 					};
 					6003F5AD195388D20070C39A = {
@@ -507,7 +507,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JU3KWWCH68;
+				DEVELOPMENT_TEAM = 8VSM2Q9RF5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XJHNetworkReachability/XJHNetworkReachability-Prefix.pch";
 				INFOPLIST_FILE = "XJHNetworkReachability/XJHNetworkReachability-Info.plist";
@@ -527,7 +527,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JU3KWWCH68;
+				DEVELOPMENT_TEAM = 8VSM2Q9RF5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XJHNetworkReachability/XJHNetworkReachability-Prefix.pch";
 				INFOPLIST_FILE = "XJHNetworkReachability/XJHNetworkReachability-Info.plist";
