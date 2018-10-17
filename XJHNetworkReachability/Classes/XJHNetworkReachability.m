@@ -296,7 +296,7 @@ static void ReachabilityCallback(SCNetworkReachabilityRef target, SCNetworkReach
 
 - (void)applicationDidBecomeActive {
 	if (self.checkActiveLaterWhenDidBecomeActive) {
-		[self checkingActiveLater];
+		[self checkActiveLater];
 		self.checkActiveLaterWhenDidBecomeActive = NO;
 	}
 }
