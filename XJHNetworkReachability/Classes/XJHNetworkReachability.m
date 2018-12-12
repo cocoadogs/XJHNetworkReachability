@@ -24,7 +24,6 @@ typedef NS_ENUM(NSInteger, XJHNetworkInnerType) {
 	XJHNetworkInnerTypeCellularData
 };
 
-NSString * const kXJHNetworkReachabilityChangeNotification = @"XJHNetworkReachabilityChangeNotification";
 NSString * const kXJHNetworkReachabilityFirstRunFlag	=	@"XJHNetworkReachabilityFirstRunFlag";
 
 static XJHNetworkReachability *instance = nil;
@@ -421,7 +420,6 @@ static void ReachabilityCallback(SCNetworkReachabilityRef target, SCNetworkReach
 			}
 		}
 		!self.monitor?:self.monitor(status, self.connect, self.carrier);
-		[[NSNotificationCenter defaultCenter] postNotificationName:kXJHNetworkReachabilityChangeNotification object:nil];
 	}
 }
 
